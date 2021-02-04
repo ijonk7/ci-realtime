@@ -183,7 +183,7 @@
                                 '<td>' + data[i].product_name + '</td>' +
                                 '<td>' + data[i].product_price + '</td>' +
                                 '<td>' +
-                                '<a href="javascript:void(0);" class="btn btn-sm btn-info item_edit" data-id="' +
+                                '<a href="javascript:void(0);" class="btn btn-sm btn-warning item_edit" data-id="' +
                                 data[i].product_id + '" data-name="' + data[i].product_name +
                                 '" data-price="' + data[i].product_price + '">Edit</a>&nbsp;' +
                                 '<a href="javascript:void(0);" class="btn btn-sm btn-danger item_delete" data-id="' +
