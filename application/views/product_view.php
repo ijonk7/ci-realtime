@@ -36,8 +36,8 @@
                         <tr>
                             <th>No</th>
                             <th>Product Name</th>
-                            <th>Prices</th>
-                            <th>Actions</th>
+                            <th>Price</th>
+                            <th>Action</th>
                         </tr>
                     </thead>
                     <tbody class="show_product">
