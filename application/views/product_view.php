@@ -36,7 +36,7 @@
                         <tr>
                             <th>No</th>
                             <th>Product Name</th>
-                            <th>Price</th>
+                            <th>Prices</th>
                             <th>Action</th>
                         </tr>
                     </thead>
