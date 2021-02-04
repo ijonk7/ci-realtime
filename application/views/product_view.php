@@ -37,7 +37,7 @@
                             <th>No</th>
                             <th>Product Name</th>
                             <th>Prices</th>
-                            <th>Action</th>
+                            <th>Actions</th>
                         </tr>
                     </thead>
                     <tbody class="show_product">
