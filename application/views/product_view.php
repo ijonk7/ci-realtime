@@ -185,7 +185,7 @@
                                 '<td>' +
                                 '<a href="javascript:void(0);" class="btn btn-sm btn-warning item_edit" data-id="' +
                                 data[i].product_id + '" data-name="' + data[i].product_name +
-                                '" data-price="' + data[i].product_price + '">Edit</a>&nbsp;' +
+                                '" data-price="' + number_format(data[i].product_price,0,",",".") + '">Edit</a>&nbsp;' +
                                 '<a href="javascript:void(0);" class="btn btn-sm btn-danger item_delete" data-id="' +
                                 data[i].product_id + '">Delete</a>' +
                                 '</td>' +
