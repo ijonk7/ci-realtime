@@ -13,6 +13,7 @@ class Product extends CI_Controller {
         
     public function get_product(){
         $data = $this->product_model->get_product()->result();
+        var_dump($data);
         echo json_encode($data);
     }
         
