@@ -12,7 +12,8 @@
     <style>
         body {
             background-color: #ffffff;
-            background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='160' height='160' viewBox='0 0 200 200'%3E%3Cpolygon fill='%23DCEFFA' points='100 0 0 100 100 100 100 200 200 100 200 0'/%3E%3C/svg%3E");
+            background-image: linear-gradient(to right, #00b4db, #0083b0);
+            /* background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='160' height='160' viewBox='0 0 200 200'%3E%3Cpolygon fill='%23DCEFFA' points='100 0 0 100 100 100 100 200 200 100 200 0'/%3E%3C/svg%3E"); */
         }
     </style>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
@@ -29,7 +30,7 @@
         <div class="row">
             <div class="col-md-12" style="background-color: white;">
                 <br>
-                <button type="button" class="btn btn-primary mb-3" data-toggle="modal" data-target="#ModalAdd">Add
+                <button type="button" class="btn btn-dark mb-3" data-toggle="modal" data-target="#ModalAdd">Add
                     Product</button>
                 <table id="mytable" class="table table-striped">
                     <thead>
@@ -46,13 +47,13 @@
 
                 </table>
             </div>
-        </div>
-        <footer class="w3-container w3-black w3-center w3-margin-top">
+        <div class="col-md-12 w3-container w3-black w3-center w3-margin-top">
             <p style="margin-top: 10px">Find me on <a href="https://github.com/ijonk7" target="_blank"
                     style="text-decoration: none;">Github
                     <i class="fa fa-github w3-hover-opacity"></i>. </a>
                 Created by <a href="" style="text-decoration: none;">Muhammad Rizal</a></p>
-        </footer>
+        </div>
+        </div>
     </div>
     <!-- Modal Add New Product -->
     <div class="modal fade" id="ModalAdd" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
